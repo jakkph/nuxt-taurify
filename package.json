@@ -1,7 +1,7 @@
 {
   "name": "nuxt-taurify",
   "description": "Nuxt 3 + Tauri + Vuetify",
-  "license": "MIT",
+  "license": "MIT", 
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -22,7 +22,7 @@
     "@tauri-apps/api": "^1.2.0",
     "vuetify": "^3.3.1"
   },
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": {
     "type": "git",

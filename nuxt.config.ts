@@ -19,8 +19,5 @@ export default defineNuxtConfig({
 		['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
 	  ],
   },
-  ssr: false,
-  build: {
-    transpile: ["vuetify"],
-  },
+  ssr: false, 
 });

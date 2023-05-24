@@ -1,14 +1,4 @@
 <script lang="ts" setup>
-import { WebviewWindow } from '@tauri-apps/api/window'
-
-const newWindow = () => {
-  const webview = new WebviewWindow('Never Gonna Give You Up', {
-    title: 'Never Gonna Give You Up',
-    width: 800,
-    height: 600,
-    resizable: true,
-  })
-}
 </script>
 
 <template> 

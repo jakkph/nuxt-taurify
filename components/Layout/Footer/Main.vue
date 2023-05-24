@@ -1,10 +1,13 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+</script>
 
 <template>
   <VRow>
     <VCol cols="12" class="text-center">
-      <span>Nuxt Taurify</span>
-      <VIcon icon="mdi-github" class="ml-2"/>
+      <VBtn variant="text" href="https://github.com/jakkph/nuxt-taurify" target="_blank">
+        Nuxt Taurify
+        <VIcon icon="mdi-github" size="18" class="ml-2" />
+      </VBtn> 
     </VCol>
   </VRow>
 </template>
