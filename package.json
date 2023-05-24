@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-taurify",
+  "description": "Nuxt 3 + Tauri + Vuetify",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.3.1",
+    "nuxt": "^3.5.1",
+    "sass": "^1.62.1",
+    "vite-plugin-vuetify": "^1.0.2"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "@pinia/nuxt": "^0.4.11",
+    "@tauri-apps/api": "^1.2.0",
+    "vuetify": "^3.3.1"
+  },
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakkph/nuxt-taurify.git"
+  },
+  "keywords": [
+    "nuxt3",
+    "taurify",
+    "vuetify"
+  ],
+  "author": "Jakkraphop Pengchan",
+  "bugs": {
+    "url": "https://github.com/jakkph/nuxt-taurify/issues"
+  },
+  "homepage": "https://github.com/jakkph/nuxt-taurify#readme"
+}

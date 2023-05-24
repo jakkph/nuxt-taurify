@@ -1,0 +1,12 @@
+{
+    "recommendations": [ 
+        "formulahendry.auto-close-tag", 
+        "formulahendry.auto-rename-tag",
+        "bungcip.better-toml", 
+        "naumovs.color-highlight",
+        "hollowtree.vue-snippets",
+        "vue.volar",
+        "ducksoupdev.vue2",
+        "sdras.vue-vscode-snippets"
+    ]
+}
