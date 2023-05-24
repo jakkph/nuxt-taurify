@@ -1,5 +1,25 @@
 <script lang="ts" setup>
+import {
+	isPermissionGranted,
+	requestPermission,
+	sendNotification,
+} from "@tauri-apps/api/notification";
 import { WebviewWindow } from '@tauri-apps/api/window';
+
+const notify = async () => {
+	const permissionGranted = await isPermissionGranted();
+
+	if (!permissionGranted) {
+		const permission = requestPermission();
+		(await permission) === "granted";
+	}
+	if (permissionGranted) {
+		sendNotification({
+			title: 'Never Gonna Give You Up',
+			body: 'Popup window open'
+		});
+	}
+};
 
 const newWindow = () => {
 	const webview = new WebviewWindow('Never-gonna-give-you-up', {
@@ -15,7 +35,11 @@ const newWindow = () => {
 	webview.once('tauri://error', function (e) {
 		// an error happened creating the webview window
 	});
+
+	notify();
 }
+
+
 </script>
 
 <template>
