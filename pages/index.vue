@@ -26,7 +26,7 @@ const newWindow = () => {
 		url: '/popup/youtube',
 		width: 800,
 		height: 600,
-		resizable: false,
+		resizable: true,
 		title: 'Never Gonna Give You Up'
 	});
 	webview.once('tauri://created', function () {
