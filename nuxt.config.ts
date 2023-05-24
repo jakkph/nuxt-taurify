@@ -6,13 +6,22 @@ export default defineNuxtConfig({
   // CSS Config
   css: ["~/assets/scss/style.scss"],
 
+build: {
+        transpile: ["vuetify"],
+    }, 
+
   // Vite Config
-  vite: {
+<!--   vite: {
     plugins: [vuetify()],
-  },
+  }, -->
 
   // Modules Config
   modules: [
     "@pinia/nuxt",
+(options, nuxt) => {
+            nuxt.hooks.hook("vite:extendConfig", (config: any) => {
+                config.plugins.push(vuetify)
+            })
+        }
   ],
 });
