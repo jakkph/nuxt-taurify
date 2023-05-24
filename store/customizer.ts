@@ -1,12 +1,13 @@
- 
+import { defineStore } from "pinia";
+
 export const useCustomizerStore = defineStore("Customizer", {
-  state: () => ({ 
+  state: () => ({
     drawer: false,
   }),
 
   getters: {},
 
-  actions: { 
+  actions: {
     toggleDrawer() {
       this.drawer = !this.drawer;
     },

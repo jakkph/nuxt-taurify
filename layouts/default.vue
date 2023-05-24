@@ -1,8 +1,7 @@
 <script lang="ts" setup>
 </script>
 
-<template>
-  <!-- //SECTION - LAYOUT -->
+<template> 
   <VApp>
     <LayoutTopbarMain />
     <LayoutSidebarMain />
@@ -14,8 +13,7 @@
     <VFooter app class="justify-center">
       <LayoutFooterMain />
     </VFooter>
-  </VApp>
-  <!-- //!SECTION - LAYOUT -->
+  </VApp> 
 </template>
 
 <style scoped></style>

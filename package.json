@@ -8,7 +8,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "dev:taurify": "tauri dev",
+    "build:taurify": "tauri build"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.3.1",
@@ -19,14 +21,14 @@
   "dependencies": {
     "@mdi/font": "^7.2.96",
     "@pinia/nuxt": "^0.4.11",
-    "@tauri-apps/api": "^1.2.0",
+    "@tauri-apps/api": "^1.3.0",
     "vuetify": "^3.3.1"
   },
   "version": "0.1.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakkph/nuxt-taurify.git"
+    "url": "https://github.com/jakkph/nuxt-taurify.git"
   },
   "keywords": [
     "nuxt3",
