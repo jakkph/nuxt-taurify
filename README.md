@@ -20,3 +20,4 @@ yarn tauri build
 ```
 
 <img src="./doc/main.png" />
+<img src="./doc/tools.png" />

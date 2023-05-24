@@ -8,7 +8,7 @@ const toggleTheme = () => {
 </script>
 
 <template>
-    <VBtn @click="toggleTheme" icon size="24">
+    <VBtn @click="toggleTheme" icon size="24" color="primary">
       <VIcon icon="mdi-theme-light-dark" size="15" />
     </VBtn>
 </template>

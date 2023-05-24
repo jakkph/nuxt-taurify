@@ -6,7 +6,7 @@ const customizerStore = useCustomizerStore();
 
 <template>
   <VAppBar density="compact">
-    <VBtn @click="customizerStore.toggleDrawer()" icon size="24">
+    <VBtn @click="customizerStore.toggleDrawer()" icon size="24" color="primary">
       <VIcon icon="mdi-menu" size="15" />
     </VBtn>
     <VSpacer />

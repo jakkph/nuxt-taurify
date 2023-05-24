@@ -18,7 +18,7 @@ const notify = async () => {
 </script>
 
 <template>
-	<VBtn @click="notify" icon size="24">
+	<VBtn @click="notify" icon size="24" color="primary">
 		<VIcon icon="mdi-bell" size="15" />
 	</VBtn>
 </template>
