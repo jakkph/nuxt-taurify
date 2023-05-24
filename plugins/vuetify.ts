@@ -1,4 +1,3 @@
-//SECTION - VUETIFY PLUGIN
 import { createVuetify } from "vuetify";
 import "@mdi/font/css/materialdesignicons.css"; 
 import { lightTheme, darkTheme } from "~/theme/themes";
@@ -42,5 +41,4 @@ export default defineNuxtPlugin((nuxtApp) => {
   });
 
   nuxtApp.vueApp.use(vuetify); 
-});
-//!SECTION
+}); 

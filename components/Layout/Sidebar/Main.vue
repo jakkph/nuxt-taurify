@@ -6,8 +6,7 @@ const customizerStore = useCustomizerStore();
 </script>
 
 <template>
-  <VNavigationDrawer v-model="customizerStore.drawer">
-    <!-- //SECTION - Sidebar Items -->
+  <VNavigationDrawer v-model="customizerStore.drawer"> 
     <VList v-for="item in sidebarItems" class="mx-2">
       <VListItem :to="item.to" :href="item.to" rounded>
         <template v-slot:prepend>
@@ -15,8 +14,7 @@ const customizerStore = useCustomizerStore();
           <VListItemTitle>{{ item.title }}</VListItemTitle>
         </template>
       </VListItem>
-    </VList>
-    <!-- //!SECTION - Sidebar Items -->
+    </VList> 
   </VNavigationDrawer>
 </template>
 
